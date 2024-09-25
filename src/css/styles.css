@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0s;
+    background-image: url(fundo.jpg);
+    border: 2px solid #00000052;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url(fundo.jpg);
+  
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #8400ff;
+    box-shadow: 0 4px 8px rgba(104, 13, 179, 0.705);
+    text-align: center;
+}
+
+    h2{
+    color: rgba(255, 255, 255, 0.877) ; 
+    text-align: center;
+    align-items: center;    
+
+}
+h1{
+    color: rgba(255, 255, 255, 0.877) ; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.705);
+    border: 1px solid #020202;
+    text-align: center;
+    align-items: center;    
+
+}
+a {
+    text-decoration: none;
+  }
